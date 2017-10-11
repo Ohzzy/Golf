@@ -16,18 +16,18 @@ h1 {
   margin-bottom: 0px
 }
 
-.inputsection{
+.inputsection {
   margin: 50px 0px 80px 0px;
   width: 400px;
 }
 
-.inputs{
+.inputs {
   width: inherit;
   display: flex;
   flex-direction: column;
 }
 
-.input{
+input {
   margin-top: 10px;
 }
 .addoption{
