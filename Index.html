@@ -6,15 +6,29 @@
     <link href="./main.css" rel="stylesheet" type="text/css">
   </head>
   <body>
-    <h1>Chose the right club</h1>
+    <h1>Choose the right club</h1>
     <div class="inputsection">
       <div class="inputs">
         <input placeholder="Something"></input>
       </div>
       <button class="addoption">Add</button>
     </div>
+    <div class="resultsection"></div>
     <button>Go!</button>
-    </body>
+
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <script>
+      $(function() {
+        $('.resultsection').hide()
+
+        var add_option = function(){
+          $('.inputs').append('<input></ input>')
+        }
+
+        $('.addoption').click(add_option)
+      })
+    </script>
+   </body>
     <div>
       <img class="input2"src="golfklubba.jpg" width="400" alt="">
 </html>

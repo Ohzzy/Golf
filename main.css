@@ -21,7 +21,7 @@ h1 {
   width: 400px;
 }
 
-.inputs {
+.inputs{
   width: inherit;
   display: flex;
   flex-direction: column;
